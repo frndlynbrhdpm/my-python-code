@@ -19,15 +19,10 @@ b=node(3)
 c=node(10)
 d=node(1)
 e=node(6)
-# f=node(None)
 g=node(14)
-# h=node(None)
-# i=node(None)
 j=node(4)
 k=node(7)
 l=node(13)
-# m=node(None)
-
 
 a.left=b
 a.right=c
@@ -45,15 +40,3 @@ g.right=None
 s=Solution()
 print(s.is_valid_bst(a))
 
-# 
-# Your previous Python 2 content is preserved below:
-# 
-# # This is a sandbox to experiment with CoderPad's execution capabilities.
-# # It's a temporary, throw-away session only visible to you.
-# 
-# def say_hello():
-#     print 'Hello, World'
-# 
-# for i in xrange(5):
-#     say_hello()
-# 
